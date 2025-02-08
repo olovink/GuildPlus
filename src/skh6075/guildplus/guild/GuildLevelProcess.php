@@ -16,7 +16,7 @@ final class GuildLevelProcess{
 
     private float $guildExperience;
 
-    public function __construct(Guild $guild, int $guildLevel, int $guildExperience) {
+    public function __construct(Guild $guild, int $guildLevel, float $guildExperience) {
         $this->guild = $guild;
         $this->guildLevel = $guildLevel;
         $this->guildExperience = $guildExperience;
